@@ -120,8 +120,6 @@ public class HeaderViewPager extends LinearLayout {
         switch (ev.getAction()) {
             //Down事件主要初始化变量
             case MotionEvent.ACTION_DOWN:
-                mDisallowIntercept = false;
-                verticalScrollFlag = false;
                 mDownX = currentX;
                 mDownY = currentY;
                 mLastY = currentY;
