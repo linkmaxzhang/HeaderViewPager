@@ -308,4 +308,7 @@ public class HeaderViewPager extends LinearLayout {
     public void setCurrentScrollableContainer(HeaderScrollHelper.ScrollableContainer scrollableContainer) {
         mScrollable.setCurrentScrollableContainer(scrollableContainer);
     }
+    public void reset(){
+        scrollTo(0,0);
+    }
 }
